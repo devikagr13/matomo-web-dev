@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color:#36517c; /* Set the background color for the whole page */
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+  align-items: center;
+  background-color:transparent; /* Set the background color for the navbar */
+  padding: 20px;
+  align-items: end;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline; /* Make the list items appear in the same line */
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: white; /* Change the text color to white */
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.navbar li a:hover{
+opacity: 0.7;}
+
+
+.navbar li.active a {
+  color: #97c1dc; /* Change the active link text color to match the background color */
+}
+
+.navbar .logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: white; /* Change the logo text color to white */
+}
+
+.navbar .rounded-button {
+  background-color: white;
+  color: #3498db; /* Change the button text color to match the background color */
+  padding: 8px 15px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Main section styles */
+.main-section {
+  display: flex;
+  background-color: transparent;
+  color: white;
+  padding: 50px;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.d-flex{
+  display: flex;
+  align-items: center;
+}
+
+.container{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.d-flex>div
+{
+  width: 50%;
+}
+.main-content h1 {
+  font-size: 36px;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+
+.main-content .subheading {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: rgb(189, 204, 243);
+}
+
+.main-content .blue-button
+ {
+  background-color: white;
+  color: #3498db; /* Change the button text color to match the background color */
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  margin-right: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.main-content .white-button {
+  background-color: transparent;
+  color: white; /* Change the button text color to match the background color */
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid white;
+  margin-right: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.main-image {
+  flex: 1;
+  text-align: center;
+
+  /* Add styles for the image here */
+}
+
+.main-image img{
+  width: 75%;
+}
+/* Media query for responsiveness */
+@media only screen and (max-width: 1440px) {
+  .navbar {
+    flex-wrap: wrap;
+    padding-left:0;
+    padding-right: 0;
+  }
+
+  .navbar ul {
+    margin-top: 20px;
+    gap: 15px;
+  }
+
+  .navbar .rounded-button {
+    margin-top: 10px;
+  }
+
+  .main-section {
+    flex-direction: column;
+  }
+}
