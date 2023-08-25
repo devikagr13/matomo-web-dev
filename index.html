@@ -2,34 +2,6 @@
 <html lang="en">
 
 <head>
-  <script>
-        var waitForTrackerCount = 0;
-        function matomoWaitForTracker() {
-          if (typeof _paq === 'undefined') {
-            if (waitForTrackerCount < 40) {
-              setTimeout(matomoWaitForTracker, 250);
-              waitForTrackerCount++;
-              return;
-            }
-          } else {
-            document.addEventListener("cookieyes_consent_update", function (eventData) {
-                const data = eventData.detail;
-                consentSet(data);
-            });   
-          }
-        }
-        function consentSet(data) {
-           if (data.accepted.includes("analytics")) {
-               _paq.push(['setCookieConsentGiven']);
-               _paq.push(['setConsentGiven']);
-           } else {
-               _paq.push(['forgetCookieConsentGiven']);
-               _paq.push(['forgetConsentGiven']);
-           }
-        }
-        document.addEventListener('DOMContentLoaded', matomoWaitForTracker());
-  </script>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>webdev</title>
