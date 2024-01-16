@@ -129,7 +129,7 @@ body {
   .main-image img{
     width: 75%;
   }
-  /* Media query for responsiveness */
+  /* Media query for responsiveness 
   @media only screen and (max-width: 1440px) {
     .navbar {
       flex-wrap: wrap;
@@ -184,3 +184,4 @@ body {
       margin-top: 20px;
     }
   }
+*/
