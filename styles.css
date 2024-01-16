@@ -99,7 +99,7 @@ opacity: 0.7;}
 .main-content .blue-button
  {
   background-color: white;
-  color: #3498db; /* Change the button text color to match the background color */
+  color: black; /* Change the button text color to match the background color */
   padding: 10px 20px;
   border-radius: 20px;
   border: none;
