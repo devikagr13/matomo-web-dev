@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: ##808080; /* Light background color */
+    background-color: #ffffff; /* Light background color */
 }
 
 /* Navbar styles */
@@ -11,7 +11,7 @@ body {
     font-size: 18px;
     justify-content: space-between;
     align-items: center;
-    background-color: #808080; /* Light navbar background */
+    background-color: #ffffff; /* Light navbar background */
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
@@ -63,7 +63,7 @@ body {
 .main-section {
     height: 2000px;
     display: flex;
-    background-color: #add8e6; /* White background for main section */
+    background-color: #d5ffff; /* White background for main section */
     color: #333; /* Dark text color */
     padding: 50px;
     border-radius: 10px;
