@@ -5,9 +5,7 @@ body {
     background-color: #f0f8ff; /* Light background color */
 }
  .container{
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 2000px;
   }
 
 /* Navbar styles */
