@@ -4,9 +4,6 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #f0f8ff; /* Light background color */
 }
- .container{
-    height: 2000px;
-  }
 
 /* Navbar styles */
 .navbar {
@@ -64,6 +61,7 @@ body {
 
 /* Main section styles */
 .main-section {
+    height: 2000px;
     display: flex;
     background-color: #ffffff; /* White background for main section */
     color: #333; /* Dark text color */
